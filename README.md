@@ -9,7 +9,8 @@
 
 ## Demo
 
-The live demo of this app is deployed and can be found [here](https://appscheduler.onrender.com/) 
+Improved version of this app which is PROD ready can be found at [calentir.com](https://calentir.com/) 
+The live demo of this app (masrter branch) is deployed and can be found [here](https://appscheduler.onrender.com/) 
 
 You can use the following credentials with live demo:
 
