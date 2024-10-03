@@ -9,7 +9,7 @@
 
 ## Demo
 
-The live demo of this app (masrter branch) is deployed and can be found [here](https://appscheduler.onrender.com/) 
+The live demo of this app (master branch) is deployed and can be found [here](https://appscheduler.onrender.com/) 
 
 You can use the following credentials with live demo:
 
