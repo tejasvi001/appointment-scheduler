@@ -9,7 +9,9 @@
 
 ## Demo
 
-The live demo of this app (master branch) is deployed and can be found [here](https://appscheduler.onrender.com/) 
+Improved and prod ready version of this app can be found at [SpotASlot.com](https://spotaslot.com/) 
+
+The live demo of this repo (master branch) can be found [here](https://appscheduler.onrender.com/) 
 
 You can use the following credentials with live demo:
 
