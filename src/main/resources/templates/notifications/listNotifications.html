@@ -25,7 +25,7 @@
                 <th> Title</th>
                 <th> Message</th>
                 <th> Action</th>
-                <th> Seen</th>
+                <th> Read Status</th>
             </tr>
             </thead>
             <tbody>
@@ -35,9 +35,9 @@
             <tr th:each="notification : ${notifications}">
                 <td><span th:text="${#dates.format(notification.createdAt, 'dd-MMM-yyyy')}"> 01-01-2019 </span></td>
                 <td><span th:text="${notification.title}"> New appointment </span></td>
-                <td><span th:text="${notification.message}"> meesage</span></td>
+                <td><span th:text="${notification.message}"> message</span></td>
                 <td><a th:href="@{'/notifications/'+${notification.id}}">See</a></td>
-                <td><span th:text="${notification.isRead()}">true</span></td>
+                <td><span th:text="${notification.isRead()}">read</span></td>
 
             </tr>
             </tbody>

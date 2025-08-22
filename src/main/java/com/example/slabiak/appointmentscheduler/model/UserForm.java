@@ -42,7 +42,7 @@ public class UserForm {
     @NotBlank(groups = {CreateUser.class, UpdateUser.class}, message = "Email cannot be empty")
     private String email;
 
-    @Pattern(groups = {CreateUser.class, UpdateUser.class}, regexp = "[0-9]{9}", message = "Please enter valid mobile phone")
+    @Pattern(groups = {CreateUser.class, UpdateUser.class}, regexp = "[0-9]{10}", message = "Please enter valid mobile phone")
     @NotBlank(groups = {CreateUser.class, UpdateUser.class}, message = "Mobile phone cannot be empty")
     private String mobile;
 
@@ -50,7 +50,7 @@ public class UserForm {
     @NotBlank(groups = {CreateUser.class, UpdateUser.class}, message = "Street cannot be empty")
     private String street;
 
-    @Pattern(groups = {CreateUser.class, UpdateUser.class}, regexp = "[0-9]{2}-[0-9]{3}", message = "Please enter valid postcode")
+    @Pattern(groups = {CreateUser.class, UpdateUser.class}, regexp = "[0-9]{6}", message = "Please enter valid postcode")
     @NotBlank(groups = {CreateUser.class, UpdateUser.class}, message = "Post code cannot be empty")
     private String postcode;
 

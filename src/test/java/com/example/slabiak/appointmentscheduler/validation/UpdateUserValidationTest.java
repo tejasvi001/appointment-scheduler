@@ -19,7 +19,7 @@ public class UpdateUserValidationTest {
     private Validator validator;
 
     @Before
-    public void stup() {
+    public void setup() {
         factory = Validation.buildDefaultValidatorFactory();
         validator = factory.getValidator();
     }

@@ -106,7 +106,7 @@ public class CustomerController {
 
 
     @PostMapping("/new/retail")
-    public String processReatilCustomerRegistration(@Validated({CreateUser.class}) @ModelAttribute("user") UserForm userForm, BindingResult bindingResult, Model model) {
+    public String processRetailCustomerRegistration(@Validated({CreateUser.class}) @ModelAttribute("user") UserForm userForm, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
             populateModel(model, userForm, "customer_retail", "/customers/new/retail", null);
             return "users/createUserForm";

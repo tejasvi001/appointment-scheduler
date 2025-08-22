@@ -1,16 +1,18 @@
 package com.example.slabiak.appointmentscheduler.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
 import java.time.LocalTime;
 import java.util.Objects;
 
 public class TimePeroid implements Comparable<TimePeroid> {
 
+    @DateTimeFormat(pattern = "HH:mm")
     private LocalTime start;
+
+    @DateTimeFormat(pattern = "HH:mm")
     private LocalTime end;
 
-    public TimePeroid() {
-
-    }
+    public TimePeroid() {}
 
     public TimePeroid(LocalTime start, LocalTime end) {
         this.start = start;
@@ -44,7 +46,6 @@ public class TimePeroid implements Comparable<TimePeroid> {
         if (o == null || getClass() != o.getClass()) return false;
         TimePeroid peroid = (TimePeroid) o;
         return this.start.equals(peroid.getStart()) &&
-
                 this.end.equals(peroid.getEnd());
     }
 
