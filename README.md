@@ -1,3 +1,4 @@
+
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/slabiak/AppointmentScheduler)
 
 # Appointment scheduler
@@ -152,7 +153,5 @@ Let's together make AppointmentScheduler awesome!
 
 If you have any suggestions/ideas please feel free to write about it. You are also welcome to fork this project and send pull request with your changes.
 
+# appointment-scheduler
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
