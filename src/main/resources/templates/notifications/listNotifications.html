@@ -37,7 +37,9 @@
                 <td><span th:text="${notification.title}"> New appointment </span></td>
                 <td><span th:text="${notification.message}"> message</span></td>
                 <td><a th:href="@{'/notifications/'+${notification.id}}">See</a></td>
-                <td><span th:text="${notification.isRead()}">read</span></td>
+                <td>
+                    <span th:text="${notification.isRead()} ? 'Read' : 'Unread'">read</span>
+                </td>
 
             </tr>
             </tbody>
