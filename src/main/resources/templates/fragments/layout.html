@@ -102,12 +102,59 @@
 </div>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container mt-5">
+    <!-- Main content -->
     <th:block th:insert="${content}"/>
-    <div class="row align-items-center justify-content-center" style="margin-top: 50px">
-        <p>AppointmentScheduler v<span th:text="${currentVersion}">1.0</span></p>
-    </div>
 </div>
+
+<footer class="bg-dark text-white mt-5 py-3">
+    <div class="container">
+        <div class="row justify-content-between align-items-start">
+            <!-- Left: App Name and Version -->
+            <div class="col-md-4">
+                <h5 class="mb-0">
+                    AppointmentScheduler
+                    <span class="text-muted" th:text="'v' + ${currentVersion}">v1.0</span>
+                </h5>
+            </div>
+
+            <!-- Right: Developer Contact Links -->
+            <div class="col-md-4">
+                <h6>Developer Contact</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-1">
+                        <a href="https://github.com/tejasvi001" target="_blank" class="text-white text-decoration-none">
+                            <i class="fab fa-github me-1"></i> GitHub
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="https://portfolio-tejasvi.vercel.app" target="_blank" class="text-white text-decoration-none">
+                            <i class="fas fa-globe me-1"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="https://leetcode.com/tejasvi_001" target="_blank" class="text-white text-decoration-none">
+                            <i class="fas fa-code me-1"></i> LeetCode
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="https://www.linkedin.com/in/tejasvi-vermani" target="_blank" class="text-white text-decoration-none">
+                            <i class="fab fa-linkedin me-1"></i> LinkedIn
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="mailto:vermanitejasvi@gmail.com" class="text-white text-decoration-none">
+                            <i class="fas fa-envelope me-1"></i> Mail
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
 
 <script th:inline="javascript">
     function fetchdata(){
