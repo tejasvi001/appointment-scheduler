@@ -1,5 +1,4 @@
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/slabiak/AppointmentScheduler)
 
 # Appointment scheduler
 
@@ -10,7 +9,6 @@
 
 ## Demo
 
-Improved and prod ready version of this app can be found at [SpotASlot.com](https://spotaslot.com/) 
 
 The live demo of this repo (master branch) can be found [here](https://appscheduler.onrender.com/) 
 
@@ -23,9 +21,6 @@ You can use the following credentials with live demo:
 | `corporate customer` | customer_c |qwerty123 |
 | `retail customer` | customer_r |qwerty123 |
 
-## Blog
-
-This application is being described in [devoxify.com](https://devoxify.com/) blog. If you are interested in how this project was created, what issues were encoutered and how they were solved I highly encourage you to visit this blog.
 
 ## Steps to Setup
 
@@ -153,5 +148,5 @@ Let's together make AppointmentScheduler awesome!
 
 If you have any suggestions/ideas please feel free to write about it. You are also welcome to fork this project and send pull request with your changes.
 
-# appointment-scheduler
+
 
