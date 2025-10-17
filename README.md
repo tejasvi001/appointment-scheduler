@@ -27,7 +27,7 @@ You can use the following credentials with live demo:
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/slabiak/AppointmentScheduler.git
+git clone https://github.com/tejasvi001/AppointmentScheduler.git
 ```
 
 **2. Create MySQL database**
